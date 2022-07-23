@@ -24,7 +24,7 @@ module.exports = () => {
         template: './index.html',
         title: 'JATE',
       }),
-      newInjectManifest({
+      new InjectManifest({
         swSrc: './src-sw.js',
         swDest: 'src-sw.js',
       }),
@@ -34,6 +34,7 @@ module.exports = () => {
         name: 'JATE',
         Short_name: 'JATE',
         description: 'A beautiful text editor',
+        background_color: '#225ca3',
         start_url: '/',
         publicPath: '/',
         icons: [{
