@@ -31,10 +31,10 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'JATE',
+        name: 'text-editor',
         Short_name: 'JATE',
         description: 'A beautiful text editor',
-        background_color: '#225ca3',
+        background_color: '',
         start_url: '/',
         publicPath: '/',
         icons: [{
